@@ -123,12 +123,8 @@ void loop()
       printOSCCAL();
       break;
     
-    case '0':
-      printNx100Chars(10);
-      break;
-    
     default:
-      ss.println(ch);
+      ss.print(ch);
       break;
   }
 }
@@ -136,15 +132,7 @@ void loop()
 void printOSCCAL()
 {
   ss.print("OSCCAL: ");
-  ss.println(OSCCAL);
-}
-
-void printNx100Chars(uint16_t n)
-{
-  for (uint16_t i=0; i<n; i++)
-  {
-    ss.print("********* ********* ********* ********* ********* ********* ********* ********* ********* *********!");  
-  }
-  ss.println(n*100);
+  ss.print(OSCCAL);
+  ss.println(" UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU.");
 }
 
