@@ -19,7 +19,7 @@ This is what the ASCII 'U' character looks like on a serial connection (as 5V TT
 
 ![](/github%20media/NewFile2.png)
 
-We can increment or decrement the OSCCAL value by sending '[' or ']' characters.  Each time we change OSCCAL, the program will send 50 'U' characters across the serial connection, allowing us to see the bit corruption as it crops up:
+We can increment or decrement the OSCCAL value by sending '[' or ']' characters.  Each time we change OSCCAL, the program will send 50 'U' characters across the serial connection, allowing us to see the byte corruption as it crops up:
 
 ![](/github%20media/decreasing_osccal.png)
 
