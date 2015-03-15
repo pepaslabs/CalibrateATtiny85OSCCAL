@@ -7,7 +7,7 @@ You can free up a few pins on the ATtiny85 by foregoing an external crystal osci
 
 ## Problem:
 
-Serial communications rely on the two devices having (relatively) synchornized clocks, otherwise the bytes they exchange will get corrupted.
+Serial communications rely on the two devices having (relatively) synchornized clocks, otherwise the bytes they exchange will get corrupted.  When using the ATtiny's internal, you might get hit by this problem.
 
 ## Solution:
 
