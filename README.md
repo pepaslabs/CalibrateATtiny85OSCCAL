@@ -15,7 +15,7 @@ You can tweak the internal oscillator of the ATTiny85 by using the OSCCAL regist
 
 We will send a byte from device A to device B, and then from device B back to device A (where device A is probably a USB-to-serial adapter for your PC and device B is an ATtiny85).  We will use an oscilloscope to measure the time of the transmission going each way, then tweak OSCCAL until they match.
 
-![](/github%20media/IMG_1758.PNG)
+![](/github%20media/IMG_1758.JPG)
 
 This is what the ASCII 'U' character looks like on a serial connection (as 5V TTL) at 9600 baud, 8N1:
 
