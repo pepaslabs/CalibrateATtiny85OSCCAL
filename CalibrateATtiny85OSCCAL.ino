@@ -75,15 +75,15 @@ NUL   00000000   ...10000000001...   ...-_________-...
 
 // project pinout:
 //
-//        +--\/--+
-//   D5  -|1    8|-  5V
-//   D3  -|2    7|-  D2
-//   D4  -|3    6|-  D1  TX_pin
-//  GND  -|4    5|-  D0  RX_pin
-//        +------+
+//              +--\/--+
+//         D5  -|1    8|-  5V
+// RX_pin  D3  -|2    7|-  D2
+// TX_pin  D4  -|3    6|-  D1
+//        GND  -|4    5|-  D0
+//              +------+
 
-#define TX_pin ARDUINO_PIN_D1
-#define RX_pin ARDUINO_PIN_D0
+#define RX_pin 3
+#define TX_pin 4
 
 
 #include <SoftwareSerial.h>
